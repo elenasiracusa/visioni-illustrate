@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #fdf8f4;
+    color: #d64875;
+    line-height: 1.6;
+  }
+
+  .inaugurazione {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #d64875;
+  }
+  
+  header {
+    background-color: #d64875;
+    color: #fdf8f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+
+  header a {
+    color: #fdf8f4;
+  }
+  
+  header h1 {
+    font-size: 1.5rem;
+  }
+  
+  header nav ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li {
+    list-style: none;
+  }
+
+  h3 {
+    padding-left: 150px;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+
+  .lista-artisti {
+    padding-left: 150px;
+    font-size: 30px;
+    margin-top: -40px;
+  }
+
+  .lista-artisti2 {
+    padding-left: 150px;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  .artisti2 {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 20px;
+  }
+
+  .inaugurazione2 {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 20px;
+  }
+
+  .infomostra {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .infoluogo {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 15px;
+  }
+  
+  .laboratoriobambini {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+.jean {
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.hattie {
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.paul {
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.martina {
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.adrian {
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.michelle {
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.sanna {
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.emily {
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.icinori {
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+  main {
+    padding: 40px 60px;
+  }
+
+  #mappa {
+  width: 800px;
+  padding-left: 150px;
+  }
+
+  .evento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+  }
+  
+  .data {
+    flex: 1;
+    font-size: 0.9rem;
+    color: #d64875;
+    margin-bottom: 100px;
+  }
+  
+  .titolo {
+    text-align: left;
+    font-size: 4rem;
+    padding-right: 900px;
+    color: #d64875;
+    line-height: 1;
+  }
+  
+  
+  .titolo .sottotitolo {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .immagine-principale {
+    flex: 2;
+    max-width: 400px;
+    margin-top: -350px;
+    margin-left: 700px;
+  }
+  
+  .descrizione h3,
+  .artisti h3 {
+    font-size: 1.4rem;
+    color: #d64875;
+    margin-bottom: 15px;
+  }
+  
+  .descrizione p {
+    margin-bottom: 15px;
+    color: #d64875;
+  }
+  
+  .artisti {
+    margin-top: 40px;
+  }
+  
+  .lista-artisti, .lista-artisti2 {
+    display: flex;
+    gap: 80px;
+  }
+  
+  .lista-artisti ul, .lista-artisti2 ul{
+    list-style: none;
+  }
+  
+  .lista-artisti li, .lista-artisti2 li{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d64875;
+    width: fit-content;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 100px;
+  }
+
+#adrianimg {
+  width: 300px;
+}
+
+#emilyimg {
+  width: 300px;
+}
+
+#hattieimg {
+  width: 300px;
+}
+
+#icinoriimg {
+  width: 300px;
+}
+
+#jeanimg {
+  width: 300px;
+}
+
+#martinaimg {
+  width: 300px;
+}
+
+#michelleimg {
+  width: 300px;
+}
+
+#paulimg {
+  width: 300px;
+}
+
+#sannaimg {
+  width: 300px;
+}
+  
+  footer {
+    background-color: #d64875;
+    color: #fdf8f4;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer a {
+    color: #fdf8f4;
+  }
+  
+  footer nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+
+  
+  
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #fdf8f4;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    margin-top: -40px;
+   padding-left: 400px;
+  }
+
+  nav ul.nav-list {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    display: none;
+    width: 100%;
+  }
+
+  nav ul.nav-list.show {
+    display: flex;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .evento {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .data {
+    margin-bottom: 20px;
+  }
+
+  .titolo {
+    font-size: 2rem;
+    padding-right: 0;
+  }
+
+  .immagine-principale {
+    margin: 30px auto;
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  h3, .inaugurazione, .artisti, .lista-artisti,
+  .jean, .hattie, .paul, .martina, .adrian,
+  .michelle, .sanna, .emily, .icinori,
+  .inaugurazione2, .infomostra, .infoluogo, .laboratoriobambini,
+  .lista-artisti2, .artisti2 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .lista-artisti, .lista-artisti2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #mappa {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  
+  .grid {
+    grid-template-columns: 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  
+
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  footer nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

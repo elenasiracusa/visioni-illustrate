@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stile.css">
+</head>
+<body>
+  <header>
+    <h1>Visioni illustrate</h1>
+    <button class="hamburger" aria-label="Menu">&#9776;</button>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="artisti.html">Artisti</a></li>
+        <li><a href="mostra.html">Mostra</a></li>
+        <li><a href="info.html">Info</a></li>
+      </ul>
+    </nav>
+  </header>
+      <main>
+        <h3>Emily Robertson</h3>
+       <section class="emily">
+        <p>
+          There is an inherent joy in the sweet, ink and water colour work of Glasgow School of Art graduate, Emily Robertson. Mix that with her impressive ability to capture the smallest of details with the slightest flicks of her brush and you’ve got someone who can capture a mood, a style and the true character of her subject with a signature flair. From juicy pastries and cosmetics to maps and stylish portraits of butchers, Emily’s eye for colour and texture is remarkable, and very popular among her clients, including: Anthropologie, Chanel, Faber&Faber, Marks and Spencer, National Trust, Pentagram NY and Port magazine.
+Notable clients include Nike, The New York Times, Penguin Books and the Folio Society.
+      </p>
+       </section>
+        <section>
+          <div class="grid">
+            <img id="emilyimg" src="immagini/emily robertson/Handsome-Frank-Emily Robertson (2).jpg" alt="">
+            <img id="emilyimg" src="immagini/emily robertson/Handsome-Frank-Emily Robertson (3).jpg" alt="">
+            <img id="emilyimg" src="immagini/emily robertson/Handsome-Frank-Emily Robertson (5).jpg" alt="">
+            <img id="emilyimg" src="immagini/emily robertson/Handsome-Frank-Emily Robertson (7).jpg" alt="">
+            <img id="emilyimg" src="immagini/emily robertson/Handsome-Frank-Emily Robertson (8).jpg" alt="">
+            <img id="emilyimg" src="immagini/emily robertson/Handsome-Frank-Emily Robertson.jpg" alt="">
+           </div> 
+        </section>
+      </main>
+
+      <footer>
+        <p><strong>2024 - Accademiandi Belle Arti Catania</strong></p>
+        <nav>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Social</a></li>
+            <li><a href="#">Chi siamo</a></li>
+          </ul>
+        </nav>
+      </footer>
+      <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navList = document.querySelector('.nav-list');
+      
+        hamburger.addEventListener('click', () => {
+          navList.classList.toggle('show');
+        });
+      </script>
+      
+</body>
+</html>

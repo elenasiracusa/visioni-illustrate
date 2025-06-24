@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stile.css">
+</head>
+<body>
+  <header>
+    <h1>Visioni illustrate</h1>
+    <button class="hamburger" aria-label="Menu">&#9776;</button>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="artisti.html">Artisti</a></li>
+        <li><a href="mostra.html">Mostra</a></li>
+        <li><a href="info.html">Info</a></li>
+      </ul>
+    </nav>
+  </header>
+      <main>
+        <h3>Adrian Johnson</h3>
+        <section class="adrian">
+          <p>
+            Over the years, British graphic artist & illustrator Adrian Johnson has developed a unique and strongly identifiable body of work. His trademark economical, highly crafted graphic work constantly evolves while maintaining a healthy distance from current trends and passing fashions. His attention to detail, humor, and simple, timeless sophistication mark him as one of the leading illustrators currently practicing.
+In addition to his commercial output, Adrian Johnson has exhibited work in London, Paris, New York, Chicago, Los Angeles, and Tokyo. He has also lectured at numerous universities and art colleges throughout Europe and has been a guest speaker at several global design conferences. He lives and works in Copenhagen, Denmark.
+Notable clients include Nike, The New York Times, Penguin Books and the Folio Society.
+        </p>
+        </section>
+        <section>
+          <div class="grid">
+            <img id="adrianimg" src="immagini/adran johnson/AP_Adrian_Johnson_BURNT_OUT_2x.jpg" alt="">
+            <img id="adrianimg" src="immagini/adran johnson/AP_Adrian_Johnson_CARROT_2x-scaled.jpg" alt="">
+            <img id="adrianimg" src="immagini/adran johnson/AP_Adrian_Johnson_LOCKDOWN_LION_2x-scaled.jpg" alt="">
+            <img id="adrianimg" src="immagini/adran johnson/AP_Adrian_Johnson_QUACK_2x-scaled.jpg" alt="">
+            <img id="adrianimg" src="immagini/adran johnson/AP_Adrian_Johnson_SPACEMAN_1_2x.jpg" alt="">
+            <img id="adrianimg" src="immagini/adran johnson/AP_Adrian_Johnson_SPACEMAN_2_2x.jpg" alt="">
+          </div> 
+        </section>
+      </main>
+
+      <footer>
+        <p><strong>2024 - Accademiandi Belle Arti Catania</strong></p>
+        <nav>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Social</a></li>
+            <li><a href="#">Chi siamo</a></li>
+          </ul>
+        </nav>
+      </footer>
+      <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navList = document.querySelector('.nav-list');
+      
+        hamburger.addEventListener('click', () => {
+          navList.classList.toggle('show');
+        });
+      </script>
+      
+</body>
+</html>

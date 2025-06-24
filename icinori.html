@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stile.css">
+</head>
+<body>
+  <header>
+    <h1>Visioni illustrate</h1>
+    <button class="hamburger" aria-label="Menu">&#9776;</button>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="artisti.html">Artisti</a></li>
+        <li><a href="mostra.html">Mostra</a></li>
+        <li><a href="info.html">Info</a></li>
+      </ul>
+    </nav>
+  </header>
+      <main>
+        <h3>Icinori</h3>
+        <section class="icinori">
+          <p>
+            Mayumi Otero and Raphael Urwiller’s prolific outpouring of work makes a very good case for living somewhere as they do in a quiet suburb just outside of Paris. They met as art students in Strasbourg a decade ago and now spend their days drawing, writing, painting, publishing, collecting, and, in their words, “expanding their inner universe.” Their work is a breathlessly wonderful, modern folkloric study of scenes and characters that are at once of our world and from another galaxy altogether. Together, they love solving problems, getting lost in research, coming up with ideas, experimenting with new working methods, and, most importantly, finding joy and happiness from the result. “Always be on the move, intellectually and spatially,” they say. “In a rare and exceptional moment, something incredible appears in a drawing; it’s pure magic, and it is precious and extraordinary. Most of our work is looking for those moments of grace.” Which is something we predict happens rather regularly.
+Notable clients include Nike, The New York Times, Penguin Books and the Folio Society.
+        </p>
+        </section>
+        </section>
+          <div class="grid">
+          <img id="icinoriimg" src="immagini/icinori/AP_Icinori_DEDAR_2x.jpg" alt="">
+          <img id="icinoriimg" src="immagini/icinori/AP_Icinori_MOXIE_1_2x.jpg" alt="">
+          <img id="icinoriimg" src="immagini/icinori/AP_Icinori_MOXIE_2_2x.jpg" alt="">
+          <img id="icinoriimg" src="immagini/icinori/AP_Icinori_MOXIE_3_2x.jpg" alt="">
+          </div> 
+        </section>
+      </main>
+      <footer>
+        <p><strong>2024 - Accademiandi Belle Arti Catania</strong></p>
+        <nav>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Social</a></li>
+            <li><a href="#">Chi siamo</a></li>
+          </ul>
+        </nav>
+      </footer>
+      <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navList = document.querySelector('.nav-list');
+      
+        hamburger.addEventListener('click', () => {
+          navList.classList.toggle('show');
+        });
+      </script>
+      
+</body>
+</html>

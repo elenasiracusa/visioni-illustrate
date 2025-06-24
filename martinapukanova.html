@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stile.css">
+</head>
+<body>
+  <header>
+    <h1>Visioni illustrate</h1>
+    <button class="hamburger" aria-label="Menu">&#9776;</button>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="artisti.html">Artisti</a></li>
+        <li><a href="mostra.html">Mostra</a></li>
+        <li><a href="info.html">Info</a></li>
+      </ul>
+    </nav>
+  </header>
+      <main>
+        <h3>Martina Pukanova</h3>
+        <section class="martina">
+          <p>
+            Berlin-based illustrator Martina Paukova likes to dabble in the colorful nuances of everyday moments. “My work consists of daily mundane scenes and lanky characters, often with perplexed expressions and dated hairdos, sitting behind computers or sipping coffee,” she says. “I like to explore and mold the everyday, the awkward, and the bendy.” Martina’s work has rocketed in popularity in the last couple of years, seeing her create humorous, jam-packed images in a trademark palette with Memphis-inspired patterns for an increasingly impressive list of clients. Previously, Martina studied politics in Slovakia before changing direction to study illustration at Camberwell College of Arts in London. She now spends her days on various editorial and commercial commissions, injecting personality into an image in a way that is uniquely her own. Like a modern-day MC Escher, her colorful, quirky perspectives move and change, with each element slotting together like a well-crafted puzzle.
+Notable clients include Nike, The New York Times, Penguin Books and the Folio Society.
+        </p>
+        </section>
+        <section>
+          <div class="grid">
+            <img id="martinaimg" src="immagini/martina pukanova/AP_Martina_Paukova_Courier_Magazine_1-scaled.jpg" alt="">
+            <img id="martinaimg" src="immagini/martina pukanova/AP_Martina_Paukova_Courier_Magazine_2-scaled.jpg" alt="">
+            <img id="martinaimg" src="immagini/martina pukanova/AP_Martina_Paukova_Freitag_Newspaper-scaled.jpg" alt="">
+            <img id="martinaimg" src="immagini/martina pukanova/AP_Martina_Paukova_Hamburg_Solo_Show_5-scaled.jpg" alt="">
+            <img id="martinaimg" src="immagini/martina pukanova/AP_Martina_Paukova_Harvard_Business_Review_2023-scaled.jpg" alt="">
+            <img id="martinaimg" src="immagini/martina pukanova/AP_Martina_Paukova_MUBI-scaled.jpg" alt="">
+          </div> 
+        </section>
+      </main>
+
+      <footer>
+        <p><strong>2024 - Accademiandi Belle Arti Catania</strong></p>
+        <nav>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Social</a></li>
+            <li><a href="#">Chi siamo</a></li>
+          </ul>
+        </nav>
+      </footer>
+      <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navList = document.querySelector('.nav-list');
+      
+        hamburger.addEventListener('click', () => {
+          navList.classList.toggle('show');
+        });
+      </script>      
+</body>
+</html>

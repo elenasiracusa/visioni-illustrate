@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stile.css">
+</head>
+<body>
+  <header>
+    <h1>Visioni illustrate</h1>
+    <button class="hamburger" aria-label="Menu">&#9776;</button>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="artisti.html">Artisti</a></li>
+        <li><a href="mostra.html">Mostra</a></li>
+        <li><a href="info.html">Info</a></li>
+      </ul>
+    </nav>
+  </header>
+      <main>
+        <h3>Sanna Mander</h3>
+        <section class="sanna">
+        <p>
+         Arguably one of Finland’s most prolific illustrators working today, Sanna Mander’s cheerful work evokes catalogs and editorial illustrations of the 1960s with a contemporary twist. With that in mind, her illustrations can be applied to various products, packaging design, posters, editorial illustrations, and textiles. In 2006, she won Cannes Young Creatives and was awarded Junior of The Year in 2007 at the Finnish Best of the Year advertising and design competition. Inspired by the luscious flora and fauna surrounding her in her native Finland, Sanna’s images are mixed media odes to the unpredictable, cluttered joys of the world around her.
+        </p>
+        </section>
+        <section>
+          <div class="grid">
+            <img id="sannaimg" src="immagini/sanna mander/AP_Sanna_Mander_daydreaming_06_2x.jpg" alt="">
+            <img id="sannaimg" src="immagini/sanna mander/AP_Sanna_Mander_daydreaming_01_2x.jpg" alt="">
+            <img id="sannaimg" src="immagini/sanna mander/AP_Sanna_Mander_daydreaming_07_2x.jpg" alt="">
+            <img id="sannaimg" src="immagini/sanna mander/AP_Sanna_Mander_daydreaming_09_2x.jpg" alt="">
+            <img id="sannaimg" src="immagini/sanna mander/AP_Sanna_Mander_Freundin_ReachOut_2x-scaled.jpg" alt="">
+            <img id="sannaimg" src="immagini/sanna mander/AP_Sanna_Mander_havisamanda_2_2x-scaled.jpg" alt="">
+          </div> 
+        </section>
+      </main>
+
+      <footer>
+        <p><strong>2024 - Accademiandi Belle Arti Catania</strong></p>
+        <nav>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Social</a></li>
+            <li><a href="#">Chi siamo</a></li>
+          </ul>
+        </nav>
+      </footer>
+      <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navList = document.querySelector('.nav-list');
+      
+        hamburger.addEventListener('click', () => {
+          navList.classList.toggle('show');
+        });
+      </script>
+      
+</body>
+</html>

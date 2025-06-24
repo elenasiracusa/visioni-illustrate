@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stile.css">
+</head>
+<body>
+  <header>
+    <h1>Visioni illustrate</h1>
+    <button class="hamburger" aria-label="Menu">&#9776;</button>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="artisti.html">Artisti</a></li>
+        <li><a href="mostra.html">Mostra</a></li>
+        <li><a href="info.html">Info</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+<main>
+  <h3>Artisti</h3>
+    <section class="artisti2">
+        <p>
+            La selezione degli artisti per la mostra "Visioni Illustrate" è stata un processo meticoloso e ispirato, volto a rappresentare la vasta gamma di stili e voci nell'illustrazione contemporanea. Un comitato di esperti ha valutato centinaia di candidature provenienti da tutto il mondo, con l'obiettivo di scegliere opere che non solo dimostrassero eccellenza tecnica, ma anche originalità concettuale e capacità di comunicare temi profondi o storie coinvolgenti. L'attenzione è stata rivolta alla diversità di tecniche, dalla tradizionale alla digitale, e alla varietà di espressioni culturali, assicurando che la mostra offrisse uno spettro completo delle tendenze attuali e delle innovazioni nell'arte dell'illustrazione.
+        </p>
+    </section>
+        <div class="lista-artisti2">
+          <ul>
+            <li><a href="jeanjulienn.html">Jean Julienne</a></li>
+            <li><a href="hattieclark.html">Hattie Clark</a></li>
+            <li><a href="paulblow.html">Paul Blow</a></li>
+            <li><a href="martinapukanova.html">Martina Paukova</a></li>
+            <li><a href="adrianjohnson.html">Adrian Johnson</a></li>
+          </ul>
+          <ul>
+            <li><a href="michellethompson.html">Michelle Thompson</a></li>
+            <li><a href="sannamander.html">Sanna Mander</a></li>
+            <li><a href="emilyrobertson.html">Emily Robertson</a></li>
+            <li><a href="icinori.html">Icinori</a></li>
+          </ul>
+        </div>
+      </section>
+</main>
+
+<footer>
+    <p><strong>2024 - Accademiandi Belle Arti Catania</strong></p>
+    <nav>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Social</a></li>
+        <li><a href="#">Chi siamo</a></li>
+      </ul>
+    </nav>
+  </footer>
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navList = document.querySelector('.nav-list');
+  
+    hamburger.addEventListener('click', () => {
+      navList.classList.toggle('show');
+    });
+  </script>
+  
+</body>
+</html>

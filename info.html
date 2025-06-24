@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stile.css">
+</head>
+<body>
+  <header>
+    <h1>Visioni illustrate</h1>
+    <button class="hamburger" aria-label="Menu">&#9776;</button>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="artisti.html">Artisti</a></li>
+        <li><a href="mostra.html">Mostra</a></li>
+        <li><a href="info.html">Info</a></li>
+      </ul>
+    </nav>
+  </header>
+      <main>
+        <h3>Sede della mostra</h3>
+        <img id="mappa" src="immagini/IMG_0655.jpeg" alt="mappa">
+        <section class="infoluogo">
+            <p>Accademia di Belle Arti Catania
+                Via Raimondo Franchetti 5
+                Catania, 95123</p>
+        </section>
+          <h3>Laboratorio bambini</h3>
+          <section class="laboratoriobambini">
+            <p>Il laboratorio creativo per bambini è un'avventura artistica pensata per stimolare l'immaginazione e la creatività dei più piccoli. Attraverso attività manuali, disegno e pittura, i bambini avranno l'opportunità di esplorare diverse tecniche artistiche in un ambiente divertente e accogliente. Guidati da istruttori esperti, impareranno a esprimere le proprie idee e emozioni creando opere d'arte uniche. Questo workshop è progettato non solo per sviluppare le abilità artistiche, ma anche per incoraggiare il lavoro di squadra, la fiducia in sé e l'apprezzamento per l'arte. Un'esperienza educativa e coinvolgente, perfetta per liberare la fantasia e il talento di ogni bambino. </p>
+          </section>
+      </main>
+      <footer>
+        <p><strong>2024 - Accademiandi Belle Arti Catania</strong></p>
+        <nav>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Social</a></li>
+            <li><a href="#">Chi siamo</a></li>
+          </ul>
+        </nav>
+      </footer>
+      <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navList = document.querySelector('.nav-list');
+      
+        hamburger.addEventListener('click', () => {
+          navList.classList.toggle('show');
+        });
+      </script>
+</body>
+</html>
